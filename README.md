@@ -19,9 +19,7 @@ This is a portfolio website built with React and Bootstrap, showcasing various p
 To use this portfolio template for your own purposes, you will need to:
 1. Clone this repository to your local machine.
 2. Navigate to the repository on your machine and run `npm install` to install the necessary dependencies.
-3. Replace the placeholder data in the `Portfolio` component with your own project data.
-4. Update the other components as necessary with your own information (e.g., replace the text in the `AboutMe` and `Resume` components, and update the `Contact` component with your contact methods).
-5. Run `npm start` to start the development server and open the portfolio in your web browser.
+3. Run `npm start` to start the development server and open the portfolio in your web browser.
 
 ## License
 This project is licensed under the MIT License.
