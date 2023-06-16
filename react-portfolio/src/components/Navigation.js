@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 const Navigation = () => {
     return (
         <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="/">Your Name</Navbar.Brand>
+            <Navbar.Brand href="/">Wyatt Otto</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">

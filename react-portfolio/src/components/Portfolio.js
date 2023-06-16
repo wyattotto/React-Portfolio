@@ -1,17 +1,19 @@
 import React from 'react';
+import Image1 from './imgs/feastfinder.png'
+import Image2 from './imgs/background.jpg'
 const Portfolio = () => {
     const projects = [
         {
           title: 'Feast Finder',
-          image: 'https://via.placeholder.com/150',
-          liveLink: 'https://example.com/project1',
-          githubLink: 'https://github.com/username/project1',
+          image: Image1 ,
+          liveLink: 'https://protected-mesa-32753.herokuapp.com/',
+          githubLink: 'https://github.com/jmfarthin/Feast-Findr',
         },
         {
-          title: 'Project 2',
-          image: 'https://via.placeholder.com/150',
-          liveLink: 'https://example.com/project2',
-          githubLink: 'https://github.com/username/project2',
+          title: 'Emergency Iron',
+          image: Image2,
+          liveLink: 'https://github.com/jmfarthin/emergency-iron-project',
+          githubLink: 'https://github.com/jmfarthin/emergency-iron-project',
         },
         // Add more projects as needed
       ];

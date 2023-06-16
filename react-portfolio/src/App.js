@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import 'bootstrap/dist/css/bootstrap.css'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
