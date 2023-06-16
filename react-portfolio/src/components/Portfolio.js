@@ -1,8 +1,20 @@
 import React from 'react';
 const Portfolio = () => {
     const projects = [
-      // your projects here
-    ];
+        {
+          title: 'Feast Finder',
+          image: 'https://via.placeholder.com/150',
+          liveLink: 'https://example.com/project1',
+          githubLink: 'https://github.com/username/project1',
+        },
+        {
+          title: 'Project 2',
+          image: 'https://via.placeholder.com/150',
+          liveLink: 'https://example.com/project2',
+          githubLink: 'https://github.com/username/project2',
+        },
+        // Add more projects as needed
+      ];
     
     return (
       <div className="container">
