@@ -1,20 +1,28 @@
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+import '../Navigation.css';
 
 const Navigation = () => {
-    return (
-        <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="/">Wyatt Otto</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="ml-auto">
-                    <Nav.Link href="/">About Me</Nav.Link>
-                    <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-                    <Nav.Link href="/contact">Contact</Nav.Link>
-                    <Nav.Link href="/resume">Resume</Nav.Link>
-                </Nav>
-            </Navbar.Collapse>
-        </Navbar>
-    );
+  return (
+    <nav className="navbar navbar-expand-lg navbar-custom">
+      <div className="container-fluid">
+        <div className="navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item">
+              <NavLink to="/portfolio" className="nav-link" activeClassName="active">Portfolio</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/contact" className="nav-link" activeClassName="active">Contact</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/resume" className="nav-link" activeClassName="active">Resume</NavLink>
+            </li>
+          </ul>
+        </div>
+        <NavLink exact to="/" className="navbar-brand" activeClassName="active">About Me</NavLink>
+      </div>
+    </nav>
+  );
 };
 
 export default Navigation;

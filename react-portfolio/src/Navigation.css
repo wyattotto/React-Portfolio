@@ -1,0 +1,13 @@
+.navbar-custom {
+    background-color: #333; /* replace with your desired color */
+    padding: 0.5rem 1rem; /* Adjust as desired */
+  }
+  
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav-link {
+    color: #fff; /* replace with your desired color */
+  }
+  
+  .navbar-custom .nav-link.active {
+    color: #ffd700; /* replace with your desired color */
+  }
